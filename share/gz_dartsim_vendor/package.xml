@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>gz_dartsim_vendor</name>
+  <!--
+    Note on package versioning:
+    This version only represents the version of the vendor package, not the
+    version of the underlying/vendored package (See <description> for that).
+    To avoid any confusion with the version of the vendor package, the major
+    version here will always be 0.
+  -->
+  <version>0.0.3</version>
+  <description>
+    Vendor package for the DART physics engine v6.13.2
+  </description>
+
+  <maintainer email="addisu@intrinsic.ai">Addisu Taddese</maintainer>
+
+  <license>Apache License 2.0</license>  <!-- the contents of this package are Apache 2.0 -->
+  <license>BSD-2</license>  <!-- DART is BSD-2 (https://dartsim.github.io/license.html) -->
+
+  <url type="website">https://dartsim.github.io/</url>
+
+  <author email="addisu@intrinsic.ai">Addisu Taddese</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
+
+  <depend>eigen</depend>
+  <depend>libccd-dev</depend>
+  <depend>libfcl-dev</depend>
+  <depend>fmt</depend>
+  <depend>bullet</depend>
+  <depend>opende</depend>
+  <depend>assimp</depend>
+  <depend>tinyxml2</depend>
+  <depend>liburdfdom-dev</depend>
+  <depend>libboost-dev</depend>
+  <depend>libboost-system-dev</depend>
+  <depend>libboost-regex-dev</depend>
+  <!-- Octomap is an optional dependency. There seems to be an issue resolving
+    this key on the ROS buildfarm, so disabling it for now -->
+  <!-- <depend>octomap</depend> -->
+  <depend>lz4</depend>
+
+  <test_depend>ament_cmake_xmllint</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

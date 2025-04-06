@@ -1,0 +1,4 @@
+source;share/tcb_span/local_setup.bash
+source;share/tcb_span/local_setup.dsv
+source;share/tcb_span/local_setup.sh
+source;share/tcb_span/local_setup.zsh

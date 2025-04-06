@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "pcl_msgs/msg/Vertices",
+      "fields": [
+        {
+          "name": "vertices",
+          "type": {
+            "type_id": 151,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "pcl_msgs/msg/Vertices",
+      "hash_string": "RIHS01_4be2374c99f6f9bb8091ecd18818b68f83099405310ed14e4ddc4e0e8931d7bb"
+    }
+  ]
+}

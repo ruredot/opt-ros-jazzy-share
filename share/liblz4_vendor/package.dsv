@@ -1,0 +1,4 @@
+source;share/liblz4_vendor/local_setup.bash
+source;share/liblz4_vendor/local_setup.dsv
+source;share/liblz4_vendor/local_setup.sh
+source;share/liblz4_vendor/local_setup.zsh

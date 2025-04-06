@@ -1,0 +1,2 @@
+rosbag2_transport::Player;lib/librosbag2_transport.so
+rosbag2_transport::Recorder;lib/librosbag2_transport.so

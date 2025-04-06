@@ -1,0 +1,4 @@
+source;share/pal_statistics/environment/ament_prefix_path.sh
+source;share/pal_statistics/environment/library_path.sh
+source;share/pal_statistics/environment/path.sh
+source;share/pal_statistics/environment/pythonpath.sh

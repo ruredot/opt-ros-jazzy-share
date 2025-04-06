@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "actuator_msgs/msg/ActuatorsLinearVelocity",
+      "fields": [
+        {
+          "name": "velocity",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "actuator_msgs/msg/ActuatorsLinearVelocity",
+      "hash_string": "RIHS01_4fe6e99d4d8f5fe754835925377d19a8c5cca889aad19bac1cd8a80127ab6f4a"
+    }
+  ]
+}
